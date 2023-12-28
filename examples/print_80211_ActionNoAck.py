@@ -95,5 +95,5 @@ if __name__ == '__main__':
 
     print(f"Numer of records: {timestamp.shape[0]}")
     for i in range(timestamp.shape[0]):
-        print(f"i-th V: {Vs[i]}")
-        print(f"i-th ASNR: {ASNRs[i]}")
+        print(f"{i}-th V: {Vs[i]}")
+        print(f"{i}-th ASNR: {ASNRs[i]}")
